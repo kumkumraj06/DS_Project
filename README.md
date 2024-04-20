@@ -5,6 +5,6 @@ Automated Verilog Code Generator for adder and multipliers (Kogge-stone adder, W
 
 Team Members:
 
--Sneha Gautam
--Kumkum Raj
--Dheekshitha
+-Sneha Gautam                                      
+-Kumkum Raj                                                     
+-Dheekshitha                                                                           
