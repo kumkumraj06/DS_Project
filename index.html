@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verilog Code Generator</title>
+</head>
+<body>
+    <h1>Verilog Code Generator</h1>
+
+    <h2>Generate Verilog Code for Wallace Multiplier</h2>
+    <form method="post">
+        <label for="num_bits">Number of Bits:</label>
+        <input type="number" id="num_bits" name="num_bits" min="1" required>
+        <button type="submit">Generate Wallace Verilog Code</button>
+    </form>
+
+    <h2>Generate Verilog Code for Booth Multiplier</h2>
+    <form method="post">
+        <label for="booth_bits">Number of Bits:</label>
+        <input type="number" id="booth_bits" name="booth_bits" min="1" required>
+        <button type="submit">Generate Booth Multiplier Verilog Code</button>
+    </form>
+
+    <h2>Generate Verilog Code for Kogge-Stone Adder</h2>
+    <form method="post">
+        <label for="kogge_bits">Number of Bits:</label>
+        <input type="number" id="kogge_bits" name="kogge_bits" min="1" required>
+        <button type="submit">Generate Kogge-Stone Adder Verilog Code</button>
+    </form>
+
+    {% if error_message %}
+        <p>Error: {{ error_message }}</p>
+    {% endif %}
+
+    {% if verilog_code %}
+        <h2>Generated Verilog Code:</h2>
+        <pre>{{ verilog_code }}</pre>
+    {% endif %}
+</body>
+</html>
