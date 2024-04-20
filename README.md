@@ -11,7 +11,8 @@ Kumkum Raj
 Dheekshitha                                                                           
 
 ## Step 1
-Make a folder in your device, add scratch.py file and one more folder named "templates". Inside the templates folder add index.html file.
+Download the scratch.py and index.html file from the code section. 
+Create a folder in your device, add scratch.py file and one more folder named "templates". Inside the templates folder add index.html file.
 
 ![Screenshot 2024-04-20 190212](https://github.com/SG00428/Digital-Systems-Project/assets/130676806/f612f140-5f58-4a04-af90-60371510a147)
 ![Screenshot 2024-04-20 190224](https://github.com/SG00428/Digital-Systems-Project/assets/130676806/65434d04-25d4-4109-af9c-55d600a65d00)
