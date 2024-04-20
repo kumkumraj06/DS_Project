@@ -18,7 +18,7 @@ Create a folder in your device, add scratch.py file and one more folder named "t
 ![Screenshot 2024-04-20 190224](https://github.com/SG00428/Digital-Systems-Project/assets/130676806/65434d04-25d4-4109-af9c-55d600a65d00)
 
 ## Step 2
-Open any python code editor/compiler and add the folder in it. Now run the scratch.py file.
+Open any python code editor/compiler and add the created folder in it. Now run the scratch.py file. (NOTE : make sure to install Flask in your device)
 ![Screenshot 2024-04-20 190340](https://github.com/SG00428/Digital-Systems-Project/assets/130676806/6141a111-6f61-4fe5-9cb6-cc83892bf8cd)
 
 ## Step 3
