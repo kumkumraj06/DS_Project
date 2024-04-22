@@ -1,0 +1,16 @@
+`timescale 1ns / 1ps
+module testbench();
+reg [15:0]a;
+reg [15:0]b;
+wire [31:0]p;
+
+wallace_tree_multiplier uut(a,b,p);
+initial
+begin
+a=16'b0001010101111000;b=16'b1010100100100000;
+#10
+a=16'b0000011100111000;b=16'b0010111100100000;
+#10
+$finish();
+end
+endmodule
