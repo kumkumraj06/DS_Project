@@ -36,7 +36,7 @@ Choose from the adder or multipliers and number of bits. Hence the desired veril
 
 ## DESCRIPTION:
 
-## KOGGE STONE ADDER:
+### KOGGE STONE ADDER:
 
 Like all other carry-lookahead adders, the Kogge-stone adder internally tracks "generate" and
 "propagate" bits for spans of bits. We begin with 1-bit spans and perform addition on a single
@@ -55,15 +55,22 @@ significant span has already been calculated.
 Since each span is merged with at most two other spans in the next stage (one more significant
 and one less significant), fan-out is minimal. [1]
 
+![Screenshot 2024-04-22 160837](https://github.com/SG00428/Digital-Systems-Project-2024/assets/130676806/93287ab2-dcd0-45fb-a233-869e20ac8f51)
 
-## WALLACE MULTIPLIER:
+
+### WALLACE MULTIPLIER:
 
 A Wallace multiplier is a hardware implementation of a binary multiplier, a digital circuit that multiplies two integers. It uses a selection of full and half adders (the Wallace tree or Wallace reduction) to sum partial products in stages until two numbers are left. [3] 
 The Wallace tree has three steps: 
 1. Multiply each bit of one of the arguments by each bit of the other. 
 2. Reduce the number of partial products to two by layers of full and half adders. 3. Group the wires in two numbers and add them with a conventional adder. 
 
-## BOOTH MULTIPLIER:
+![Screenshot 2024-04-22 160820](https://github.com/SG00428/Digital-Systems-Project-2024/assets/130676806/b7c50686-6a2f-4a50-a28f-03a8c9a171e8)
+
+
+### BOOTH MULTIPLIER:
+
+
 
 Booth's algorithm examines adjacent pairs of bits of the 'N'-bit multiplier Y in signed two's complement representation, including an implicit bit below the least significant bit, y−1 = 0. For each bit yi, for i running from 0 to N − 1, the bits yi and yi−1 are considered. Where these two bits are equal, the product accumulator P is left unchanged. Where yi = 0 and yi−1 = 1, the multiplicand times 2i is added to P; and where yi = 1 and yi−1 = 0, the multiplicand times 2i is subtracted from P. The final value of P is the signed product.
 
@@ -71,7 +78,13 @@ The representations of the multiplicand and product are not specified; typically
 
 The algorithm is often described as converting strings of 1s in the multiplier to a high-order +1 and a low-order −1 at the ends of the string. When a string runs through the MSB, there is no high-order +1, and the net effect is interpretation as a negative of the appropriate value.[2]
 
+
+![image](https://github.com/SG00428/Digital-Systems-Project-2024/assets/130676806/8e75146b-cd53-4b85-9673-1de5a94bcf97)
+
+
+
 ## References: 
 [1]: Wikimedia Foundation. (2023, December 3). Kogge–Stone Adder. Wikipedia. https://en.wikipedia.org/wiki/Kogge%E2%80%93Stone_adder 
 [2]:1.Wikipedia Contributors. Booth’s multiplication algorithm. Wikipedia. Published August 4, 2022. https://en.wikipedia.org/wiki/Booth%27s_multiplication_algorithm#:~:text=Booth
 ‌[3]: Wikimedia Foundation. (2024a, February 7). Wallace Tree. Wikipedia. https://en.wikipedia.org/wiki/Wallace_tree#:~:text=A%20Wallace%20multiplier%20is%20a,until %20two%20numbers%20are%20left.
+
