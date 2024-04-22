@@ -8,7 +8,7 @@ Python based Automated Verilog Code Generator for adder and multipliers (Kogge-s
 
 Sneha Gautam                                      
 Kumkum Raj                                                     
-Dheekshitha                                                                           
+Oruganti Dheekshitha                                                                           
 
 ## Step 1
 Download the scratch.py and index.html file from the code section. 
