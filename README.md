@@ -1,6 +1,6 @@
 # Automated Verilog Code Generator
 ## Digital Systems Project                          
-*(Course : ES 204, Professor : Ms. Joycee, Place : IIT Gandhinagar)*
+*(Course : ES 204, Professor Joycee M. Mekie, Place : IIT Gandhinagar)*
 
 Python based Automated Verilog Code Generator for adder and multipliers (Kogge-stone adder, Wallace tree multiplier and Booth Multiplier)
 
