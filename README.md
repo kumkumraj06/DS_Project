@@ -36,7 +36,7 @@ Choose from the adder or multipliers and number of bits. Hence the desired veril
 
 ## DESCRIPTION:
 
-## KOGGE STONE ADDER:
+### KOGGE STONE ADDER:
 
 Like all other carry-lookahead adders, the Kogge-stone adder internally tracks "generate" and
 "propagate" bits for spans of bits. We begin with 1-bit spans and perform addition on a single
@@ -58,7 +58,7 @@ and one less significant), fan-out is minimal. [1]
 ![Screenshot 2024-04-22 160837](https://github.com/SG00428/Digital-Systems-Project-2024/assets/130676806/93287ab2-dcd0-45fb-a233-869e20ac8f51)
 
 
-## WALLACE MULTIPLIER:
+### WALLACE MULTIPLIER:
 
 A Wallace multiplier is a hardware implementation of a binary multiplier, a digital circuit that multiplies two integers. It uses a selection of full and half adders (the Wallace tree or Wallace reduction) to sum partial products in stages until two numbers are left. [3] 
 The Wallace tree has three steps: 
@@ -67,7 +67,8 @@ The Wallace tree has three steps:
 
 ![Screenshot 2024-04-22 160820](https://github.com/SG00428/Digital-Systems-Project-2024/assets/130676806/b7c50686-6a2f-4a50-a28f-03a8c9a171e8)
 
-## BOOTH MULTIPLIER:
+
+### BOOTH MULTIPLIER:
 
 
 
