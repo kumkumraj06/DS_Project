@@ -69,5 +69,9 @@ Booth's algorithm examines adjacent pairs of bits of the 'N'-bit multiplier Y in
 
 The representations of the multiplicand and product are not specified; typically, these are both also in two's complement representation, like the multiplier, but any number system that supports addition and subtraction will work as well. As stated here, the order of the steps is not determined. Typically, it proceeds from LSB to MSB, starting at i = 0; the multiplication by 2i is then typically replaced by incremental shifting of the P accumulator to the right between steps; low bits can be shifted out, and subsequent additions and subtractions can then be done just on the highest N bits of P.[2] There are many variations and optimizations on these details.
 
-The algorithm is often described as converting strings of 1s in the multiplier to a high-order +1 and a low-order −1 at the ends of the string. When a string runs through the MSB, there is no high-order +1, and the net effect is interpretation as a negative of the appropriate value.
+The algorithm is often described as converting strings of 1s in the multiplier to a high-order +1 and a low-order −1 at the ends of the string. When a string runs through the MSB, there is no high-order +1, and the net effect is interpretation as a negative of the appropriate value.[2]
 
+References: 
+[1]: Wikimedia Foundation. (2023, December 3). Kogge–Stone Adder. Wikipedia. https://en.wikipedia.org/wiki/Kogge%E2%80%93Stone_adder 
+[2]:1.Wikipedia Contributors. Booth’s multiplication algorithm. Wikipedia. Published August 4, 2022. https://en.wikipedia.org/wiki/Booth%27s_multiplication_algorithm#:~:text=Booth
+‌[3]: Wikimedia Foundation. (2024a, February 7). Wallace Tree. Wikipedia. https://en.wikipedia.org/wiki/Wallace_tree#:~:text=A%20Wallace%20multiplier%20is%20a,until %20two%20numbers%20are%20left.
