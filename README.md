@@ -71,7 +71,7 @@ The representations of the multiplicand and product are not specified; typically
 
 The algorithm is often described as converting strings of 1s in the multiplier to a high-order +1 and a low-order −1 at the ends of the string. When a string runs through the MSB, there is no high-order +1, and the net effect is interpretation as a negative of the appropriate value.[2]
 
-References: 
+## References: 
 [1]: Wikimedia Foundation. (2023, December 3). Kogge–Stone Adder. Wikipedia. https://en.wikipedia.org/wiki/Kogge%E2%80%93Stone_adder 
 [2]:1.Wikipedia Contributors. Booth’s multiplication algorithm. Wikipedia. Published August 4, 2022. https://en.wikipedia.org/wiki/Booth%27s_multiplication_algorithm#:~:text=Booth
 ‌[3]: Wikimedia Foundation. (2024a, February 7). Wallace Tree. Wikipedia. https://en.wikipedia.org/wiki/Wallace_tree#:~:text=A%20Wallace%20multiplier%20is%20a,until %20two%20numbers%20are%20left.
